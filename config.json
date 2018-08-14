@@ -6,7 +6,7 @@
     "targetCount": 1
   },
   "yt": {
-    "apiEnabled": false,
+    "apiEnabled": true,
     "apiUrl": "https://www.youtube.com/intl/en/yt/about/copyright/#support-and-troubleshooting"
   }
 }
