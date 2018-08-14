@@ -1,13 +1,12 @@
 {
   "extendedAnalytics": false,
-  "mixpanelId": "4eb15e2ba31a9d7c082b9c928bc4ea8c",
   "fb": {
     "apiEnabled": true,
-    "apiUrl": "http://fbvideosaver.net/download?url={URL_BASE64}&filename={FILENAME}",
+    "apiUrl": "https://www.google.com",
     "targetCount": 1
   },
   "yt": {
     "apiEnabled": true,
-    "apiUrl": "https://fbvideosaver.net/noyoutube?url={URL}"
+    "apiUrl": "https://www.youtube.com/intl/en/yt/about/copyright/#support-and-troubleshooting"
   }
 }
