@@ -4,9 +4,5 @@
     "apiEnabled": true,
     "apiUrl": "https://www.google.com",
     "targetCount": 1
-  },
-  "yt": {
-    "apiEnabled": true,
-    "apiUrl": "https://www.youtube.com/intl/en/yt/about/copyright/#support-and-troubleshooting"
   }
 }
