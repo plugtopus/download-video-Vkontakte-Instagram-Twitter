@@ -1,0 +1,56 @@
+{
+   "desc": {
+      "message": "Allows to choose and download video from popular websites - Vkontakte, Instagram, Twitter"
+   },
+   "name": {
+      "message": "Download video Vkontakte, Instagram, Twitter"
+   },
+   "shortname": {
+      "message": "Download video VK, Instagram, Twitter"
+   },
+   "title": {
+      "message": "Download video VK, Instagram, Twitter"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "popUpMode": {
+      "message": "PopUp Mode"
+   },
+   "sliderMode": {
+      "message": "Slider Mode"
+   },
+   "HideControlButtons": {
+      "message": "Hide Control Buttons"
+   },
+   "ShowControlButtons": {
+      "message": "Show Control Buttons"
+   },
+   "LightTheme": {
+      "message": "Light Theme"
+   },
+   "DarkTheme": {
+      "message": "Dark Theme"
+   },
+   "vlc_caption": {
+      "message": "Welcome to Video Downloader for Vkontakte, Instagram and Twitter"
+   },
+   "vlc_text": {
+      "message": "Download any video from your favorite websites! Fast, easy, free! Video preview available. Refresh the page if something is not working out for you ;)"
+   },
+   "Download_All": {
+      "message": "Download all"
+   },
+   "To_Videos": {
+      "message": "To videos"
+   },
+   "video_not_found": {
+      "message": "We are sorry, on the current page videos available for download are not found"
+   },
+   "msg": {
+      "message": "Video URL copied to clipboard"
+   },
+   "download_btn": {
+      "message": "Download"
+   }
+}

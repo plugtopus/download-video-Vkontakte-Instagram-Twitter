@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "core/lib/jquery-3.3.1.js", "core/lib/tools.js", "core/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/128.png",
+      "default_popup": "html/popup.html",
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "css": [ "css/btns.css", "css/app.css", "css/sidebar.css" ],
+      "js": [ "core/lib/jquery-3.3.1.js", "core/lib/tools.js", "core/providers/abstract-provider.js", "core/providers/in.js", "core/providers/tw.js", "core/providers/vk.js", "core/app.js", "core/content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval';  object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "img/128.png",
+      "32": "img/32.png",
+      "64": "img/64.png",
+      "16": "img/16.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "tabs", "storage", "notifications", "downloads", "contextMenus", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "short_name": "__MSG_shortname__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.08.14.1",
+   "web_accessible_resources": [ "img/*" ]
+}

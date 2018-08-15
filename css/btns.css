@@ -1,0 +1,42 @@
+.mtz-download-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #52aa62;
+  color: #fff;
+  outline: none;
+  border: none;
+  z-index: 10000;
+  padding: 5px 10px;
+  border-radius: 4px; }
+  .mtz-download-btn:hover {
+    transition: all .3s;
+    cursor: pointer;
+    opacity: .7; }
+
+.video_box_wrap .mtz-download-btn {
+  left: 10px; }
+
+._53j5 .mtz-download-btn {
+  display: none; }
+._53j5:hover .mtz-download-btn {
+  display: block; }
+
+article .mtz-download-btn {
+  display: none;
+  z-index: 1; }
+article:hover .mtz-download-btn {
+  display: block; }
+
+.player_outro_area .mtz-download-btn {
+  display: none;
+  left: 10px; }
+.player_outro_area:hover .mtz-download-btn {
+  display: block; }
+
+.Player .mtz-download-btn {
+  display: none;
+  left: 10px; }
+.Player:hover .mtz-download-btn {
+  display: block; }
+

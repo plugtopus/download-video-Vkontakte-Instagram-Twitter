@@ -1,0 +1,27 @@
+.mtz-download-btn {
+    position: absolute; right: 10px; top: 10px; background: #52aa62; color: #fff;
+    outline: none; border: none; z-index: 10000;
+    padding: 5px 10px; border-radius: 4px;
+
+    &:hover { transition: all .3s; cursor: pointer; opacity: .7; }
+}
+
+.video_box_wrap .mtz-download-btn { left: 10px; }
+
+// in ___
+article {
+    .mtz-download-btn { display: none; z-index: 1; }
+    &:hover {
+        .mtz-download-btn { display: block; }
+    }
+}
+
+// vm ___
+.player_outro_area {
+    .mtz-download-btn { display: none; left: 10px; }
+    &:hover {
+        .mtz-download-btn { display: block; }
+    }
+}
+
+
